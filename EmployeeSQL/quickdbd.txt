@@ -16,7 +16,7 @@ emp_no int PK FK - employees.emp_no
 employees
 -
 emp_no int PK
-emp_title char(5) FK >- titles.title_id
+emp_title_id char(5) FK >- titles.title_id
 birth_data DATE
 first_name varchar(20)
 last_name varchar(20)
